@@ -1,0 +1,76 @@
+body{margin:0;}
+
+html { background-color: aliceblue;    }
+
+ul{ background-color: white;   
+    display: flex;
+    justify-content: flex-end;  }
+    
+ul li {
+    list-style: none;
+    margin: 20px 12px;  }
+  
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 6px;   }
+  
+ul li a:hover {
+    background-color: aliceblue;    }
+  
+section {
+    margin: 20px;   }
+  
+      
+#profile{
+        display:flex;
+        flex-direction: row;
+        width:200px;    }
+.kontak{
+        background-color: blue;
+        color: white;   }
+img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-color: yellow;
+        margin-top: -10px;  }
+
+.profile-text{
+        padding: 5px;
+        margin-top: -20px;
+        width: 100px;
+        flex:1;
+    
+        text-align: left;   }
+.action{
+    display: flex;
+    flex-direction: row;   
+margin-left: -10px; }
+
+
+.detail{
+        display:flex;
+        flex-direction: row;
+        width:100px;    
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    
+    form {
+        background-color: white;
+      }
+      
+      form input {
+        width: 100%;
+        margin-bottom: 16px;
+      }
+      
+      form input[type="submit"] {
+        margin: 0;
+        background-color: green;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+      }
